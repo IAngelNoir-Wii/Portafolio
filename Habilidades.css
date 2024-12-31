@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("/images/Fondo.png");
+  background-image: url("./images/Fondo.png");
   background-position: 50% 50%;
 }
 
@@ -114,7 +114,7 @@
 
 .u-section-2 .u-image-1 {
   min-height: 384px;
-  background-image: url("/images/Ladulcesa.png");
+  background-image: url("./images/Ladulcesa.png");
   background-position: 53.48% 85.01%;
   background-size: 110%;
 }
@@ -489,7 +489,7 @@
     grid-auto-columns: 100%;
   }
 } .u-section-5 {
-  background-image: linear-gradient(to bottom, rgba(41, 40, 45, 0.5), rgba(41, 40, 45, 0.5)), url('/images/Fondo2.png');
+  background-image: linear-gradient(to bottom, rgba(41, 40, 45, 0.5), rgba(41, 40, 45, 0.5)), url('./images/Fondo2.png');
   background-position: 50% 50%, 50% 50%;
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
@@ -627,7 +627,7 @@
 
 .u-section-6 .u-image-1 {
   min-height: 535px;
-  background-image: url("/images/Cult.png");
+  background-image: url("./images/Cult.png");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -733,7 +733,7 @@
 
 .u-section-7 .u-image-1 {
   min-height: 273px;
-  background-image: url("/images/OSC2.png");
+  background-image: url("./images/OSC2.png");
   background-position: 50% 50%;
 }
 
@@ -762,7 +762,7 @@
 
 .u-section-7 .u-image-2 {
   min-height: 273px;
-  background-image: url("/images/LosSuperE.png");
+  background-image: url("./images/LosSuperE.png");
   background-position: 49.8% 18.68%;
   background-size: auto 175%;
 }
@@ -811,7 +811,7 @@
 
 .u-section-7 .u-image-3 {
   min-height: 273px;
-  background-image: url("/images/Frame20.png");
+  background-image: url("./images/Frame20.png");
   background-position: 50% 50%;
 }
 
@@ -840,7 +840,7 @@
 
 .u-section-7 .u-image-4 {
   min-height: 273px;
-  background-image: url("/images/Section1.png");
+  background-image: url("./images/Section1.png");
   background-position: 91.34% 9.08%;
   background-size: auto 135%;
 }
