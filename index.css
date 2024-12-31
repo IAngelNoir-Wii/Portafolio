@@ -1052,7 +1052,7 @@
     margin-top: 38px;
   }
 } .u-section-4 {
-  background-image: url("/images/Fondo.png");
+  background-image: url("./images/Fondo.png");
   background-position: 50% 50%;
 }
 
@@ -1077,7 +1077,7 @@
 }
 
 .u-section-4 .u-image-1 {
-  background-image: url("/images/Indicidual.png");
+  background-image: url("./images/Indicidual.png");
   box-shadow: -2px 0 0 0 rgba(44,204,196,0);
   background-position: 50% 50%;
 }
@@ -1113,7 +1113,7 @@
 }
 
 .u-section-4 .u-image-2 {
-  background-image: url("/images/Academico1.png");
+  background-image: url("./images/Academico1.png");
   box-shadow: -2px 0 0 0 rgba(44,204,196,0);
   background-position: 50% 50%;
 }
@@ -1149,7 +1149,7 @@
 }
 
 .u-section-4 .u-image-3 {
-  background-image: url("/images/Profesionales.png");
+  background-image: url("./images/Profesionales.png");
   background-position: 50% 50%;
 }
 
