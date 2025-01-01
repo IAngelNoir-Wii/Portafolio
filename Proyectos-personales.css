@@ -16,7 +16,7 @@
     margin-right: 0;
   }
 } .u-section-2 {
-  background-image: url("/images/Fondo2.png");
+  background-image: url("./images/Fondo2.png");
   background-position: 50% 50%;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .u-section-2 .u-image-1 {
-  background-image: url("/images/Su.svg");
+  background-image: url("./images/Su.svg");
   min-height: 720px;
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
@@ -80,7 +80,7 @@
 }
 
 .u-section-2 .u-image-2 {
-  background-image: url("/images/Clumzy.svg");
+  background-image: url("./images/Clumzy.svg");
   min-height: 368px;
   background-position: 50% 16.82%;
   --animation-custom_in-translate_x: 300px;
@@ -118,7 +118,7 @@
 
 .u-section-2 .u-image-3 {
   min-height: 352px;
-  background-image: url("/images/Angel.svg");
+  background-image: url("./images/Angel.svg");
   background-position: 50% 28.54%;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
@@ -410,7 +410,7 @@
     min-height: 339px;
   }
 } .u-section-4 {
-  background-image: url("/images/Fondo3.png");
+  background-image: url("./images/Fondo3.png");
   background-position: 50% 50%;
 }
 
@@ -425,7 +425,7 @@
 
 .u-section-4 .u-image-1 {
   min-height: 556px;
-  background-image: url("/images/Krunch.png");
+  background-image: url("./images/Krunch.png");
   background-position: 54.35% 50%;
   background-size: cover;
 }

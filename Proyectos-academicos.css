@@ -128,7 +128,7 @@
 
 .u-section-2 .u-image-1 {
   min-height: 352px;
-  background-image: url("/images/GoodByeEnBeh.png");
+  background-image: url("./images/GoodByeEnBeh.png");
   background-position: 50% 50%;
 }
 
@@ -141,7 +141,7 @@
   margin-top: 0;
   margin-bottom: 0;
   height: auto;
-  background-image: url("/images/Fondo31.png");
+  background-image: url("./images/Fondo31.png");
 }
 
 .u-section-2 .u-container-layout-3 {
@@ -169,7 +169,7 @@
   min-height: 249px;
   margin-top: 0;
   margin-bottom: 0;
-  background-image: url("/images/Fondo4.png");
+  background-image: url("./images/Fondo4.png");
   height: auto;
 }
 
@@ -192,7 +192,7 @@
   margin-top: 0;
   margin-bottom: 0;
   height: auto;
-  background-image: linear-gradient(to bottom, rgba(40, 40, 40, 1), rgba(40, 40, 40, 1)), url("/images/Fondo5.png");
+  background-image: linear-gradient(to bottom, rgba(40, 40, 40, 1), rgba(40, 40, 40, 1)), url("./images/Fondo5.png");
   background-position: 50% 85.05%;
   background-size: cover;
 }
@@ -527,7 +527,7 @@
   margin-top: 16px;
   margin-bottom: 0;
   height: auto;
-  background-image: url("/images/Frame9562.png");
+  background-image: url("./images/Frame9562.png");
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -718,7 +718,7 @@
 }
 
 .u-section-3 .u-image-9 {
-  background-image: url("/images/mock.png");
+  background-image: url("./images/mock.png");
 }
 
 .u-section-3 .u-container-layout-8 {
@@ -1425,7 +1425,7 @@
     margin-left: -8px;
   }
 } .u-section-4 {
-  background-image: url("/images/Frame184.png");
+  background-image: url("./images/Frame184.png");
 }
 
 .u-section-4 .u-sheet-1 {
@@ -1592,7 +1592,7 @@
 
 .u-section-5 .u-image-1 {
   min-height: 421px;
-  background-image: url("/images/Frame179.png");
+  background-image: url("./images/Frame179.png");
   background-position: 50% 50%;
   --radius: 40px;
 }
@@ -1633,7 +1633,7 @@
 
 .u-section-5 .u-image-3 {
   min-height: 489px;
-  background-image: url("/images/Frame180.png");
+  background-image: url("./images/Frame180.png");
   background-position: 50% 50%;
   --radius: 40px;
 }
@@ -1896,7 +1896,7 @@
     margin-left: initial;
   }
 } .u-section-7 {
-  background-image: url("/images/Frame1851.png");
+  background-image: url("./images/Frame1851.png");
   background-position: 50% 50%;
 }
 
@@ -1911,7 +1911,7 @@
 
 .u-section-7 .u-image-1 {
   min-height: 494px;
-  background-image: url("/images/image11.png");
+  background-image: url("./images/image11.png");
 }
 
 .u-section-7 .u-container-layout-1 {
@@ -1958,7 +1958,7 @@
 
 .u-section-7 .u-image-2 {
   min-height: 398px;
-  background-image: url("/images/PaletaColores.png");
+  background-image: url("./images/PaletaColores.png");
 }
 
 .u-section-7 .u-container-layout-4 {

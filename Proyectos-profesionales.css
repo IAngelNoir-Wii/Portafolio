@@ -8,7 +8,7 @@
   margin-top: 0;
   margin-bottom: 60px;
   height: auto;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/TC.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./images/TC.png');
   background-position: 50% 50%;
 }
 
@@ -485,7 +485,7 @@
 
 .u-section-2 .u-image-1 {
   min-height: 555px;
-  background-image: url("/images/TC2.png");
+  background-image: url("./images/TC2.png");
   background-position: 50% 82.28%;
   background-size: cover;
 }
@@ -608,7 +608,7 @@
 }
 
 .u-section-3 .u-image-1 {
-  background-image: url("/images/1paginaBr1.png");
+  background-image: url("./images/1paginaBr1.png");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
@@ -651,7 +651,7 @@
 }
 
 .u-section-3 .u-image-2 {
-  background-image: url("/images/2paginaBr1.png");
+  background-image: url("./images/2paginaBr1.png");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
@@ -694,7 +694,7 @@
 }
 
 .u-section-3 .u-image-3 {
-  background-image: url("/images/3paginaBr1.png");
+  background-image: url("./images/3paginaBr1.png");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
@@ -750,7 +750,7 @@
 }
 
 .u-section-3 .u-image-4 {
-  background-image: url("/images/4paginaBr1.png");
+  background-image: url("./images/4paginaBr1.png");
   background-position: 50% 50%;
 }
 
@@ -788,7 +788,7 @@
 }
 
 .u-section-3 .u-image-5 {
-  background-image: url("/images/5paginaBr1.png");
+  background-image: url("./images/5paginaBr1.png");
   background-position: 50% 50%;
 }
 
@@ -946,7 +946,7 @@
     margin-top: -6px;
   }
 } .u-section-4 {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/example02.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/example02.png');
 }
 
 .u-section-4 .u-sheet-1 {
@@ -980,7 +980,7 @@
 
 .u-section-4 .u-image-1 {
   min-height: 223px;
-  background-image: url("/images/Relashions.png");
+  background-image: url("./images/Relashions.png");
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -1026,7 +1026,7 @@
 
 .u-section-4 .u-image-2 {
   min-height: 223px;
-  background-image: url("/images/UIcl.png");
+  background-image: url("./images/UIcl.png");
 }
 
 .u-section-4 .u-container-layout-4 {
@@ -1251,7 +1251,7 @@
 
 .u-section-5 .u-image-1 {
   min-height: 366px;
-  background-image: url("/images/Mockup.png");
+  background-image: url("./images/Mockup.png");
   --radius: 50px;
   background-position: 50% 50%;
   --animation-custom_in-translate_x: -300px;
