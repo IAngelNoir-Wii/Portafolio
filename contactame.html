@@ -71,46 +71,58 @@
 	</nav>
 </section>
 
-<section class="contact-form">
+<section data-bs-version="5.1" class="form03 cid-uIVvG2qFED" id="form03-3j">
     <div class="container">
-        <div class="row align-items-center">  <!-- Added align-items-center -->
-            <!-- Columna del formulario (6 unidades de Bootstrap) -->
-            <div class="col-lg-6 col-md-12">
-                <h2>Contáctame</h2>
-                <p>Hola! Me alegra que te guste mi trabajo. Contáctame si tienes alguna propuesta o consulta.</p>
-                
-                <form action="https://formsubmit.co/isabela.angel2@gmail.com" method="POST">
-                    <!-- Configuración FormSubmit -->
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_next" value="https://tuusuario.github.io/gracias.html">
-                    
-                    <div class="mb-3">
-                        <label for="email" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    
-                    <div class="mb-3">
-                        <label for="name" class="form-label">Nombre</label>
-                        <input type="text" class="form-control" id="name" name="name" required>
-                    </div>
-                    
-                    <div class="mb-3">
-                        <label for="phone" class="form-label">Teléfono (opcional)</label>
-                        <input type="tel" class="form-control" id="phone" name="phone">
-                    </div>
-                    
-                    <div class="mb-3">
-                        <label for="message" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
-                </form>
+        <div class="row justify-content-center">
+            <!-- Columna del formulario (se mantiene igual pero con el form actualizado) -->
+            <div class="col-12 col-lg item-wrapper">
+                <div class="mbr-section-head mb-5">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Contáctame</strong></h3>
+                    <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4 display-7">Hola! Me alegra que te guste mi trabajo. Contáctame si tienes alguna propuesta o consulta.</h4>
+                </div>
+                <div class="col-lg-12 mx-auto mbr-form" data-form-type="formoid">
+                    <form action="https://formsubmit.co/isabela.angel2@gmail.com" method="POST" class="mbr-form form-with-styler">
+                        <!-- Configuración FormSubmit -->
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://tuusuario.github.io/gracias.html">
+                        <input type="hidden" name="_template" value="table">
+                        
+                        <!-- Se mantienen las alertas visuales aunque FormSubmit manejará la redirección -->
+                        <div class="row">
+                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Gracias por contactarme, te escribiré un mensaje en cuanto pueda.</div>
+                            <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                                Oops...! Hubo un problema al enviar tu mensaje.
+                            </div>
+                        </div>
+                        
+                        <!-- Campos del formulario (se mantienen igual pero con required añadido) -->
+                        <div class="dragArea row">
+                            <div class="col-md col-sm-12 form-group mb-3" data-for="name">
+                                <input type="text" name="name" placeholder="Nombre" data-form-field="name" class="form-control" id="name-form03-3j" required>
+                            </div>
+                            <div class="col-md col-sm-12 form-group mb-3" data-for="email">
+                                <input type="email" name="email" placeholder="E-mail" data-form-field="email" class="form-control" id="email-form03-3j" required>
+                            </div>
+                            <div class="col-12 form-group mb-3" data-for="phone">
+                                <input type="tel" name="phone" placeholder="Teléfono" data-form-field="phone" class="form-control" id="phone-form03-3j">
+                            </div>
+                            <div class="col-12 form-group mb-3" data-for="message">
+                                <textarea name="message" placeholder="Mensaje" data-form-field="message" class="form-control" id="textarea-form03-3j" required></textarea>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
+                                <button type="submit" class="btn btn-primary display-7">Enviar mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
             
-            <!-- Columna de la imagen (6 unidades de Bootstrap) -->
-            <div class="col-lg-6 col-md-12 d-flex justify-content-center">  <!-- Added d-flex and justify-content-center -->
-                <img src="assets/images/veria2.png" alt="Isabela diseñadora UX" class="img-fluid contact-image">  <!-- Added img-fluid and custom class -->
+            <!-- Columna de la imagen (se mantiene igual) -->
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img class="w-100" src="assets/images/veria2.png-1081x1081.png" alt="Isabela García - Diseñadora UX">
+                </div>
             </div>
         </div>
     </div>
