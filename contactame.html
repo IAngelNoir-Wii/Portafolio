@@ -71,49 +71,47 @@
 	</nav>
 </section>
 
-<section data-bs-version="5.1" class="form03 cid-uIVvG2qFED" id="form03-3j">
-    
-
-    
-
+<section class="contact-form">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-6 item-wrapper">
-                <div class="mbr-section-head mb-5">
-                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        <strong>Contáctame</strong></h3>
-                    <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4 display-7">Hola! Me alegra que te guste mi trabajo. Contáctame si tienes alguna propuesta o consulta.</h4>
-                </div>
-                <div class="col-lg-12 mx-auto mbr-form" data-form-type="formoid">
-                    <form action="https://formsubmit.co/isabela.angel2@gmail.com" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
-		    <!-- Token anti-spam (opcional) -->
-		    <input type="hidden" name="_captcha" value="false">
-                        <!-- Campos del formulario (mantén los que tienes) -->
-		    	<div class="row">
-		        <div class="col-md col-sm-12 form-group mb-3 mb-3" data-for="name">
-		            <input type="text" name="name" placeholder="Nombre" required class="form-control" value="" id="name-form03-3j">
-		        </div>
-		        <div class="col-md col-sm-12 form-group mb-3 mb-3" data-for="email">
-		            <input type="email" name="email" placeholder="E-mail" required class="form-control" value="" id="name-form03-3j">
-		        </div>
-		        <div class="col-12 form-group mb-3 mb-3" data-for="phone">
-		            <input type="tel" name="phone" placeholder="Teléfono" class="form-control" value="" id="name-form03-3j">
-		        </div>
-		        <div class="col-12 form-group mb-3 mb-3" data-for="message">
-		            <textarea name="message" placeholder="Mensaje" required class="form-control" value="" id="name-form03-3j"></textarea>
-		        </div>
-		        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
-		            <button type="submit" class="btn btn-primary display-7">Enviar mensaje</button>
-		    </div>
-		</form>
-                </div>
+        <div class="row align-items-center">  <!-- Added align-items-center -->
+            <!-- Columna del formulario (6 unidades de Bootstrap) -->
+            <div class="col-lg-6 col-md-12">
+                <h2>Contáctame</h2>
+                <p>Hola! Me alegra que te guste mi trabajo. Contáctame si tienes alguna propuesta o consulta.</p>
+                
+                <form action="https://formsubmit.co/isabela.angel2@gmail.com" method="POST">
+                    <!-- Configuración FormSubmit -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://tuusuario.github.io/gracias.html">
+                    
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Teléfono (opcional)</label>
+                        <input type="tel" class="form-control" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
             </div>
-            <div class="col-12 col-lg-6">
-                <div class="image-wrapper">
-                    <img class="w-100" src="assets/images/veria2.png-1081x1081.png" alt="Mobirise Website Builder">
-                </div>
+            
+            <!-- Columna de la imagen (6 unidades de Bootstrap) -->
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center">  <!-- Added d-flex and justify-content-center -->
+                <img src="assets/images/veria2.png" alt="Isabela diseñadora UX" class="img-fluid contact-image">  <!-- Added img-fluid and custom class -->
             </div>
-
         </div>
     </div>
 </section>
